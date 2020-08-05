@@ -1,0 +1,24 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "Fizz Buzz API",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suva-India/FizzBuzz.git"
+  },
+  "keywords": [
+    "Fizz",
+    "Buzz",
+    "API"
+  ],
+  "author": "Suvadip Paul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Suva-India/FizzBuzz/issues"
+  },
+  "homepage": "https://github.com/Suva-India/FizzBuzz#readme"
+}
