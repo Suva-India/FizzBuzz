@@ -1,24 +1,35 @@
 {
-  "name": "fizzbuzz",
-  "version": "1.0.0",
-  "description": "Fizz Buzz API",
-  "main": "index.js",
-  "scripts": {
-    "test": "npm test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Suva-India/FizzBuzz.git"
-  },
-  "keywords": [
-    "Fizz",
-    "Buzz",
-    "API"
-  ],
-  "author": "Suvadip Paul",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Suva-India/FizzBuzz/issues"
-  },
-  "homepage": "https://github.com/Suva-India/FizzBuzz#readme"
+    "name": "fizzbuzz",
+    "version": "1.0.0",
+    "description": "Fizz Buzz API",
+    "main": "index.js",
+    "scripts": {
+        "test": "npm test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Suva-India/FizzBuzz.git"
+    },
+    "keywords": [
+        "FizzBuzz",
+        "API",
+        "Fizz",
+        "Buzz"
+    ],
+    "author": "Suvadip Paul",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Suva-India/FizzBuzz/issues"
+    },
+    "homepage": "https://github.com/Suva-India/FizzBuzz#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "eslint": "^7.6.0",
+        "eslint-config-airbnb-base": "^14.2.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-import": "^2.22.0",
+        "prettier": "2.0.5"
+    }
 }
