@@ -4,6 +4,7 @@
     "description": "Fizz Buzz API",
     "main": "index.js",
     "scripts": {
+        "start" : "node index.js" ,
         "test": "npm test"
     },
     "repository": {
@@ -31,5 +32,8 @@
         "eslint-config-prettier": "^6.11.0",
         "eslint-plugin-import": "^2.22.0",
         "prettier": "2.0.5"
-    }
+    },
+    "engines": {
+        "node": "12.18.x"
+      }
 }
