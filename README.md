@@ -25,9 +25,9 @@ Before you begin, ensure you have the following installed:
 
 ## Installing FizzBuzz 
 
-To install FizzBuzz, follow these steps:
+To install FizzBuzz, follow the below steps:
 
-In you favourite terminal and OS run the below commands:
+In your favourite terminal and OS, run the below commands:
 
 1. git clone https://github.com/Suva-India/FizzBuzz.git
 2. cd FizzBuzz
