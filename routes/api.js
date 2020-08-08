@@ -18,10 +18,12 @@ router.get(
 
     (req, res, next) => {
         let fizzbuzzArray;
+        let validationerr = {};
         try {
             const errors = validationResult(req);
             if (!errors.isEmpty()) {
-                return res.status(400).json({ errors: errors.array() });
+                validationerr = errors.mapped();
+                return res.status(400).json(validationerr.count.msg);
             }
 
             const { count } = req.params;
