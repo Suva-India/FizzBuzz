@@ -6,26 +6,29 @@ and returns a json array object containing FizzBuzz pattern upto input count.
 
 ## Prerequisites
 
-Before you begin, ensure you have met the following requirements:
-* You have installed the latest version of Node.js
+Before you begin, ensure you have met the following installed:
+* Node.js version 12.18.x or more
+* Nodemon: For local server during development
+    Nodemon can be globally installed by running the following command:
+    npm install -g nodemon
 
-## Installing FizzBuzz
+## Installing FizzBuzz to create local development server
 
 To install FizzBuzz, follow these steps:
 
-Windows:
-```
-<install_command>
-```
-## Using FizzBuzz
+In you favourite terminal and OS run the below commands:
 
-To use FizzBuzz, follow these steps:
+1. git clone https://github.com/Suva-India/FizzBuzz.git
+2. cd FizzBuzz
+3. npm install -d
+4. nodemon
+
+## Using FizzBuzz API from web
+
+To use FizzBuzz, access the below URL:
 
 <<<url>>>
 
-Add run commands and examples you think users will find useful. Provide an options reference for bonus points!
-
-Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 ## Contact
 
