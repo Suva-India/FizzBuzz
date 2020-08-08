@@ -1,10 +1,14 @@
 // function to generate the fizzbuzz api array
 
 function fizzbuzzArray(count) {
+    console.log('\n\nNew Array Request\n');
     const resultArray = [];
+    let value;
     try {
         for (let i = 1; i <= count; i += 1) {
-            resultArray.push((i % 3 ? '' : 'fizz') + (i % 5 ? '' : 'buzz') || i);
+            value = (i % 3 ? '' : 'fizz') + (i % 5 ? '' : 'buzz') || i;
+            console.log(value);
+            resultArray.push(value);
         }
 
         return resultArray;
