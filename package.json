@@ -4,7 +4,7 @@
     "description": "Fizz Buzz API",
     "main": "index.js",
     "scripts": {
-        "start" : "node index.js" ,
+        "start": "node index.js",
         "test": "npm test"
     },
     "repository": {
@@ -24,7 +24,8 @@
     },
     "homepage": "https://github.com/Suva-India/FizzBuzz#readme",
     "dependencies": {
-        "express": "^4.17.1"
+        "express": "^4.17.1",
+        "express-validator": "^6.6.1"
     },
     "devDependencies": {
         "eslint": "^7.6.0",
@@ -35,5 +36,5 @@
     },
     "engines": {
         "node": "12.18.x"
-      }
+    }
 }
