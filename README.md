@@ -1,16 +1,17 @@
 # FizzBuzz
 
 FizzBuzz is an Express.js based REST API, that accepts a count between 1 and 100,
-and returns a json array object containing FizzBuzz pattern upto input count.
+and returns a json array object containing FizzBuzz pattern upto the input count.
 
-It also prints each value on a new line on console.
+It also prints each output value on a new line in server console.
 
 ## Project Summary
 
-* Used Express.JS API Server as Node.JS Wrapper.
+* Uses Express.JS API Server as Node.JS wrapper.
 * Includes an error handling middleware and a GET API route
-* Tests are written using Mocha, Chai and Chai-HTTTP (Includes only 4 integration tests)
-* Error handling has been enabled with try-catch block in route and util function.
+* Tests are written using Mocha, Chai and Chai-HTTP (Includes only 4 integration tests)
+* Express-validator package used for API get parameter validation.
+* Error handling has been enabled with try-catch block in route and the middleware function.
 * VS Code has been used as code editor.
 * Code linted with esLint and prettified with Prettier
 * Deployed on Heroku cloud
@@ -25,7 +26,7 @@ Before you begin, ensure you have the following installed:
 
 ## Installing FizzBuzz 
 
-To install FizzBuzz, follow the below steps:
+To install FizzBuzz on a local server, follow the below steps:
 
 In your favourite terminal and OS, run the below commands:
 
